@@ -1,0 +1,66 @@
+.navbar {
+  background-color: #bbb;
+}
+
+nav ul {
+  display: flex;
+  gap: 2rem;
+}
+
+nav a {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: rgb(0, 238, 255);
+  text-decoration: underline;
+}
+
+.produtos {
+  padding: 3rem 0;
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+
+  width: 100%;
+}
+
+.produto {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+
+  font-size: 1.5rem;
+
+  gap: 2rem;
+
+  border: 4px solid #000;
+  width: 100%;
+
+  border-radius: 20px;
+
+  padding: 2rem;
+}
+
+.produto:hover {
+  transform: scale(1.05);
+}
+
+.produto img {
+  width: 100%;
+}
+
+.produto h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.produto .preco {
+  font-size: 1.5rem;
+  font-weight: bold;
+}

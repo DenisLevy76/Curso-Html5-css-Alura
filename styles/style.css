@@ -1,0 +1,93 @@
+.banner {
+  width: 100%;
+  height: 40rem;
+  object-fit: cover;
+}
+
+main .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-utensilios {
+  width: 120px;
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+section {
+  padding: 2.5rem !important;
+}
+
+section .text {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.sobre {
+  background-color: #fefefe;
+}
+
+.localizacao {
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.beneficios {
+  display: flex;
+  flex-direction: column;
+}
+
+.beneficios img {
+  width: 60%;
+}
+
+.beneficios ul {
+  list-style: circle;
+  font-size: 1.5rem;
+}
+
+.beneficios-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.beneficios-content img {
+}
+
+strong {
+  font-weight: bold;
+}
+
+.titulo-principal {
+  text-align: center;
+  font-size: 2rem;
+  margin: 2rem;
+  font-weight: bold;
+  clear: left;
+}
+
+.video {
+  align-self: center;
+  margin-bottom: 5rem;
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    text-align: center;
+  }
+
+  .navbar .container {
+    display: block;
+    padding: 1rem;
+  }
+
+  .navbar .container nav ul {
+    text-align: center;
+    flex-flow: row wrap;
+  }
+}
